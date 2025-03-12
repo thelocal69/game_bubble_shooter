@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background: url('./image/Ocean.jpg') fixed no-repeat;
+}
+
+#game-canvas {
+  border: 1px solid #000;
+}
+
+#reload-button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+#reload-button:hover {
+  background-color: #3e8e41;
+}
